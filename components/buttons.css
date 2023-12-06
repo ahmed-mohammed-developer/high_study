@@ -1,0 +1,15 @@
+.btn {
+   width: 170px;
+   float: left;
+   margin: 20px 0px 80px 0px;
+}
+
+.btn a {
+   width: 100%;
+   float: left;
+   font-size: 16px;
+   color: #ffffff;
+   background-color: #d8b911;
+   text-align: center;
+   padding: 10px 0px;
+}
