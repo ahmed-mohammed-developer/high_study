@@ -9,7 +9,7 @@ html {
 }
 
 body {
-   font-family: 'Rajdhani', sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -18,4 +18,8 @@ body {
    --btn: #00295a;
    --btn-border: #004a80;
    --nav: #320ca0;
+   --padding-top: 50px;
+   --padding-bottom: 100px;
+
 }
+

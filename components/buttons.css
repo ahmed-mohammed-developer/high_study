@@ -7,9 +7,10 @@
 .btn a {
    width: 100%;
    float: left;
-   font-size: 16px;
-   color: #ffffff;
-   background-color: #d8b911;
    text-align: center;
-   padding: 10px 0px;
+   padding: 15px 0px;
+   text-decoration: none;
+   transition: all 0.3s ease;
+   font-size: 1.2rem;
+   letter-spacing: 0.5px;
 }

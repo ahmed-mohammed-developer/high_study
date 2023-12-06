@@ -25,7 +25,7 @@ header {
    list-style: none;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 920px) {
    .header-top {
       display: none;
    }
