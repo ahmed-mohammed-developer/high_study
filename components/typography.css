@@ -12,6 +12,11 @@
    line-height: 1.77;
    text-transform: capitalize;
 }
+@media screen and (max-width: 330px) {
+   .title {
+      font-size: 2rem;
+   }
+}
 
 .title--sm {
    font-size: 1.12rem;
@@ -29,8 +34,6 @@
    text-transform: capitalize;
 
 }
-
-
 .text {
    font-size: 1rem;
    font-weight: 300;
