@@ -1,3 +1,4 @@
+
 .about-section {
    background: var(--background-coler);
    padding-top: var(--padding-top);
@@ -37,29 +38,16 @@
    overflow: hidden; /* لمنع تجاوز الصورة للحجم المحدد */
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 875px) {
    .about-section .box-main {
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       gap: 10px;
    }
-}
-@media screen and (max-width: 830px) {
    .about-section h1 {
       font-size: 2.5rem;
    }
 }
 @media screen and (max-width: 730px) {
-   .about-section h1 {
-      font-size: 2rem;
-   }
-}
-@media screen and (max-width: 710px) {
-   .about-section .box-main {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 10px;
-   }
-}
-@media screen and (max-width: 670px) {
    .about-section .box-main {
       grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
       gap: 10px;
@@ -67,31 +55,35 @@
    .about-section h1 {
       font-size: 3rem;
    }
-   .btn {
-      margin-bottom:30px ;
+   .about-section .btn  {
+      margin-bottom: 29px;
+   }
 }
+
+@media screen and (max-width: 426px) {
+   .about-section .box-main {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 10px;
+   }
 }
-@media screen and (max-width: 470px) {
-   .home-section .box-main {
+@media screen and (max-width: 350px) {
+   .about-section .box-main {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       gap: 10px;
    }
-   .home-section h1 {
+   .about-section h1 {
       font-size: 2rem;
    }
 }
-@media screen and (max-width: 425px) {
-   .home-section .box-main {
+@media screen and (max-width: 281px) {
+   .about-section .container {
+      padding-inline: 10px;
+   }
+   .about-section .box-main {
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
       gap: 10px;
    }
-   .home-section {
-      padding: 30px 10px;
-      }
-      .home-section h1 {
-      font-size: 2rem;
+      .about-section h1 {
+      font-size: 1.8rem;
    }
-   .btn {
-      margin-bottom:30px ;
-}
 }
