@@ -36,18 +36,14 @@
    background: var(--btn);
 }
 
-
+.call-back .call-right .box  img {
+   max-width:  90%;
+}
 @media screen and (max-width: 950px) {
    .call-back .call-back-section {
       display: block;
    }
       .call-back-section .call-right .box.im{
          display: none;
-      }
-   }
-
-   @media screen and (max-width: 770px) {
-      .call-back .call-back-section {
-         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       }
    }
